@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1">
+  <title>Quotes App</title>
+  <link rel="shortcut icon" href="assets/images/pngegg.png" type="image/x-icon">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style_index.css">
+</head>
+<body>
+
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col text-center text-white">
+                <h1>Quote of the Day</h1>
+                <p>Press the button below to recieve a random quote!</p>
+                <button class="btn btn-primary mb-5" onclick="getQuote()">New Quote</button>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div id="imgContainer">
+                            <img id="img" src="">
+                        </div>
+                    </div>
+                    <div class="col-md-8 d-flex justify-content-center align-items-center flex-column">
+                        <p class="fs-2" style="text-shadow: 2px 4px 3px rgba(0,0,0,0.3)" id="quote"><span id="typed"></span></p>
+                        <p class="align-self-baseline fst-italic fs-3" style="color: #02A5BD;" id="author"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>
